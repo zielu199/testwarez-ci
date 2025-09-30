@@ -6,8 +6,6 @@ Cieszę się, że wybrałeś mój warsztat :)
 
 Aby zweryfikować środowisko, którego będziemy używać podczas warsztatu, proszę wykonaj kroki opisane w sekcji **INSTRUKCJE DO WARSZTATU**.
 
----
-
 ## INSTRUKCJE DO WARSZTATU
 
 Upewnij się, że przychodzisz na warsztat z **laptopem** – najlepiej z systemem **Windows**.  
@@ -15,8 +13,6 @@ Twój laptop nie powinien mieć ograniczeń, takich jak:
 
 - brak uprawnień administratora (potrzebne do instalacji narzędzi),  
 - ograniczony dostęp do internetu (VPN, firewall, proxy itp.).  
-
----
 
 ## Wymagania wstępne
 
@@ -56,28 +52,24 @@ python --version
 
 Powinieneś zobaczyć zainstalowaną wersję Pythona.  
 
----
-
 ## GitHub i konfiguracja projektu
 
 #### 4. Forkuj repozytorium  
 Przejdź do:  
-[https://github.com/tklepacki/hustef-ci](https://github.com/tklepacki/hustef-ci)  
+https://github.com/tklepacki/testwarez-ci
 
 Kliknij **Fork**, aby utworzyć kopię w swoim koncie GitHub.  
 
-> Nie masz konta na GitHubie? Najpierw utwórz je na [https://github.com](https://github.com)  
+Nie masz konta na GitHubie? Najpierw utwórz je na [https://github.com](https://github.com)  
 
 #### 5. Sklonuj swoje sforkowane repozytorium  
 Sklonuj repozytorium na swój komputer lokalny:
 ```bash
-git clone https://github.com/TWOJ_USERNAME/hustef-ci.git
+git clone https://github.com/TWOJ_USERNAME/testwarez-ci.git
 ```
 
 #### 6. Otwórz projekt w VS Code  
 Przejdź do sklonowanego folderu i otwórz go w VS Code.  
-
----
 
 ## Docker i Jenkins
 
@@ -97,8 +89,6 @@ Uruchom w terminalu:
 ```bash
 docker pull jenkins/jenkins:lts
 ```
-
----
 
 ## Wszystko gotowe!
 
